@@ -1,0 +1,17 @@
+{
+  "name": "dotabby.com",
+  "version": "0.0.1",
+  "description": "The official site of Dotabby.",
+  "author": "SuneBear",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Dotabby/Official-Site.git"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  }
+}
